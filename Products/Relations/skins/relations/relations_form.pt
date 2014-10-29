@@ -39,7 +39,7 @@
 
                 <tal:condition condition="action/icon">
                   <img src="" alt=""
-                       tal:attributes="src string:${utool}/${action/icon};
+                       tal:attributes="src string:${context/portal_url}/${action/icon};
                                        alt action/title"
                        />
                 </tal:condition>
